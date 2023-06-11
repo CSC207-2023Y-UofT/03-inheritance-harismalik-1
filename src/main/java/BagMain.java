@@ -35,6 +35,7 @@ class BagMain {
      */
     public static int countCrossbodyStraps(Bag[] bags) {
         // TODO: Implement this.
+
         int totalStraps = 0;
         for (Bag bag : bags) {
             if (bag instanceof CrossbodyBag) {
